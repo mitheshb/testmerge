@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<PhysicalTable mdsid="m80000001-71a4-167c-806e-c0a838010000" name="CLASS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Database/00000003-70f1-167c-806e-c0a838010000.xml#m00000003-70f1-167c-806e-c0a838010000">
-<PhysicalColumn mdsid="m80000003-71a4-167c-806e-c0a838010000" name="RNO" dataType="DOUBLE" precision="53" nullable="true" specialType="none">
+<PhysicalTable mdsid="m80000001-71a4-167c-806e-c0a838010000" name="CLASS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Database/00000003-70f1-167c-806e-c0a838010000.xml#m00000003-70f1-167c-806e-c0a838010000">
+<PhysicalColumn mdsid="m80000003-71a4-167c-806e-c0a838010000" name="RNO" dataType="DOUBLE" precision="53" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000005-71a4-167c-806e-c0a838010000" name="COLUMN1" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+<PhysicalColumn mdsid="m80000005-71a4-167c-806e-c0a838010000" name="COLUMN1" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000007-71a4-167c-806e-c0a838010000" name="NAME" dataType="DOUBLE" precision="53" nullable="true" specialType="none">
+<PhysicalColumn mdsid="m80000007-71a4-167c-806e-c0a838010000" name="NAME" dataType="DOUBLE" precision="53" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000009-71a4-167c-806e-c0a838010000" name="RESULT" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+<PhysicalColumn mdsid="m80000009-71a4-167c-806e-c0a838010000" name="RESULT" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
 <PhysicalForeignKey mdsid="m80000000-71d4-167c-806e-c0a838010000" name="CLASS_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c0000001-711c-167c-806e-c0a838010000.xml#mc0000000-71bb-167c-806e-c0a838010000">
 <RefColumns>

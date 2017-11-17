@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<PhysicalTable mdsid="mc0000001-717e-167c-806e-c0a838010000" name="LIBRARY" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Database/00000003-70f1-167c-806e-c0a838010000.xml#m00000003-70f1-167c-806e-c0a838010000">
-<PhysicalColumn mdsid="mc0000003-717e-167c-806e-c0a838010000" name="RNO" dataType="DOUBLE" precision="53" nullable="true" specialType="none">
+<PhysicalTable mdsid="mc0000001-717e-167c-806e-c0a838010000" name="LIBRARY" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Database/00000003-70f1-167c-806e-c0a838010000.xml#m00000003-70f1-167c-806e-c0a838010000">
+<PhysicalColumn mdsid="mc0000003-717e-167c-806e-c0a838010000" name="RNO" dataType="DOUBLE" precision="53" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="mc0000005-717e-167c-806e-c0a838010000" name="NAME" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+<PhysicalColumn mdsid="mc0000005-717e-167c-806e-c0a838010000" name="NAME" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="mc0000007-717e-167c-806e-c0a838010000" name="BOOKS" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+<PhysicalColumn mdsid="mc0000007-717e-167c-806e-c0a838010000" name="BOOKS" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
 <PhysicalKey mdsid="m80000000-71ba-167c-806e-c0a838010000" name="LIBRARY_Key">
 <RefColumns>

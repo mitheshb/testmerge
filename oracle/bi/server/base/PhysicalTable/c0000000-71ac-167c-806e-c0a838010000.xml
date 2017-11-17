@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<PhysicalTable mdsid="mc0000000-71ac-167c-806e-c0a838010000" name="sprots_a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Database/00000003-70f1-167c-806e-c0a838010000.xml#m00000003-70f1-167c-806e-c0a838010000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/c0000001-711c-167c-806e-c0a838010000.xml#mc0000001-711c-167c-806e-c0a838010000">
-<PhysicalColumn mdsid="mc0000004-71ac-167c-806e-c0a838010000" name="CHESS" dataType="DOUBLE" precision="53" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000001-711c-167c-806e-c0a838010000.xml#mc0000009-711c-167c-806e-c0a838010000">
+<PhysicalTable mdsid="mc0000000-71ac-167c-806e-c0a838010000" name="sprots_a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Database/00000003-70f1-167c-806e-c0a838010000.xml#m00000003-70f1-167c-806e-c0a838010000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/c0000001-711c-167c-806e-c0a838010000.xml#mc0000001-711c-167c-806e-c0a838010000">
+<PhysicalColumn mdsid="mc0000004-71ac-167c-806e-c0a838010000" name="CHESS" dataType="DOUBLE" precision="53" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000001-711c-167c-806e-c0a838010000.xml#mc0000009-711c-167c-806e-c0a838010000">
 </PhysicalColumn>
-<PhysicalColumn mdsid="mc0000001-71ac-167c-806e-c0a838010000" name="RNO" dataType="DOUBLE" precision="53" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000001-711c-167c-806e-c0a838010000.xml#mc0000003-711c-167c-806e-c0a838010000">
+<PhysicalColumn mdsid="mc0000001-71ac-167c-806e-c0a838010000" name="RNO" dataType="DOUBLE" precision="53" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000001-711c-167c-806e-c0a838010000.xml#mc0000003-711c-167c-806e-c0a838010000">
 </PhysicalColumn>
-<PhysicalColumn mdsid="mc0000002-71ac-167c-806e-c0a838010000" name="NAME" dataType="VARCHAR" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000001-711c-167c-806e-c0a838010000.xml#mc0000005-711c-167c-806e-c0a838010000">
+<PhysicalColumn mdsid="mc0000002-71ac-167c-806e-c0a838010000" name="NAME" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000001-711c-167c-806e-c0a838010000.xml#mc0000005-711c-167c-806e-c0a838010000">
 </PhysicalColumn>
-<PhysicalColumn mdsid="mc0000003-71ac-167c-806e-c0a838010000" name="RUNNING" dataType="DOUBLE" precision="53" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000001-711c-167c-806e-c0a838010000.xml#mc0000007-711c-167c-806e-c0a838010000">
+<PhysicalColumn mdsid="mc0000003-71ac-167c-806e-c0a838010000" name="RUNNING" dataType="DOUBLE" precision="53" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000001-711c-167c-806e-c0a838010000.xml#mc0000007-711c-167c-806e-c0a838010000">
 </PhysicalColumn>
 <PhysicalKey mdsid="m00000000-71c6-167c-806e-c0a838010000" name="sprots_a_Key">
 <RefColumns>

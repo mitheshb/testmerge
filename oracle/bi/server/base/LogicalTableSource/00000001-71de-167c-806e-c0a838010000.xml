@@ -3,7 +3,7 @@
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m00000001-01f4-0000-12e2-c33c00000000" name="LogicalColumnExpr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["sys"."class_a"."COLUMN1"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["sys"."class_a"."COLUMN1-change"]]></ExprTextDesc>
 <ObjectRefList>
 <RefObject refId="m00000001-01f4-0000-12e2-c33c00000000-m00000002-71de-167c-806e-c0a838010000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-71de-167c-806e-c0a838010000.xml#m00000002-71de-167c-806e-c0a838010000"/>
 </ObjectRefList>

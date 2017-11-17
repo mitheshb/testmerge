@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="m0000002c-71e6-167c-806e-c0a838010000" name="class_a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000026-71e6-167c-806e-c0a838010000.xml#m00000026-71e6-167c-806e-c0a838010000">
-<PresentationColumn mdsid="m00000010-71e6-167c-806e-c0a838010000" name="COLUMN1" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-71de-167c-806e-c0a838010000.xml#m00000002-71de-167c-806e-c0a838010000">
+<PresentationColumn mdsid="m00000010-71e6-167c-806e-c0a838010000" name="COLUMN1-change" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-71de-167c-806e-c0a838010000.xml#m00000002-71de-167c-806e-c0a838010000">
+<Alias name="COLUMN1"/>
 </PresentationColumn>
 <PresentationColumn mdsid="m00000012-71e6-167c-806e-c0a838010000" name="NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-71de-167c-806e-c0a838010000.xml#m00000003-71de-167c-806e-c0a838010000">
 </PresentationColumn>
