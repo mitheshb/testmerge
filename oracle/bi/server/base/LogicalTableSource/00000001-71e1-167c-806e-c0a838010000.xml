@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m00000001-71e1-167c-806e-c0a838010000" name="library_a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/00000000-71e1-167c-806e-c0a838010000.xml#m00000000-71e1-167c-806e-c0a838010000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-9a7a-b71100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."library_a"."BOOKS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-9a7a-b71100000000-m00000002-71e1-167c-806e-c0a838010000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-71e1-167c-806e-c0a838010000.xml#m00000002-71e1-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-93af-50f400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."".""."library_a"."BOOKS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-93af-50f400000000-mc0000003-71a9-167c-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-71a9-167c-806e-c0a838010000.xml#mc0000003-71a9-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-199a-b0c800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."library_a"."NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-199a-b0c800000000-m00000003-71e1-167c-806e-c0a838010000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-71e1-167c-806e-c0a838010000.xml#m00000003-71e1-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-baa0-53f600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."".""."library_a"."NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-baa0-53f600000000-mc0000002-71a9-167c-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-71a9-167c-806e-c0a838010000.xml#mc0000002-71a9-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-2868-60e200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."library_a"."RNO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-2868-60e200000000-m00000004-71e1-167c-806e-c0a838010000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-71e1-167c-806e-c0a838010000.xml#m00000004-71e1-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-546c-d82500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."".""."library_a"."RNO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-546c-d82500000000-mc0000001-71a9-167c-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-71a9-167c-806e-c0a838010000.xml#mc0000001-71a9-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/c0000000-71a9-167c-806e-c0a838010000.xml#mc0000000-71a9-167c-806e-c0a838010000">
+</Link>
+<WhereClause mdsid="m00000007-01f4-0000-ae28-6cbb00000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000008-01f4-0000-03cf-ecb500000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000009-01f4-0000-b6cd-8a4b00000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

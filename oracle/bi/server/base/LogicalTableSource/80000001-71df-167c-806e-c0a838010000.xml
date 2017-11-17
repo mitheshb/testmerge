@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m80000001-71df-167c-806e-c0a838010000" name="sprots_a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/80000000-71df-167c-806e-c0a838010000.xml#m80000000-71df-167c-806e-c0a838010000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-396a-3be200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."sprots_a"."CHESS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-396a-3be200000000-m80000002-71df-167c-806e-c0a838010000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/80000000-71df-167c-806e-c0a838010000.xml#m80000002-71df-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-a026-e2c600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."".""."sprots_a"."CHESS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-a026-e2c600000000-mc0000004-71ac-167c-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-71ac-167c-806e-c0a838010000.xml#mc0000004-71ac-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-4147-10bc00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."sprots_a"."NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-4147-10bc00000000-m80000003-71df-167c-806e-c0a838010000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/80000000-71df-167c-806e-c0a838010000.xml#m80000003-71df-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-f7da-f40400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."".""."sprots_a"."NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-f7da-f40400000000-mc0000002-71ac-167c-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-71ac-167c-806e-c0a838010000.xml#mc0000002-71ac-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-381c-5ff000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."sprots_a"."RNO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-381c-5ff000000000-m80000004-71df-167c-806e-c0a838010000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/80000000-71df-167c-806e-c0a838010000.xml#m80000004-71df-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-9068-25bc00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."".""."sprots_a"."RNO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-9068-25bc00000000-mc0000001-71ac-167c-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-71ac-167c-806e-c0a838010000.xml#mc0000001-71ac-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-9907-45d200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."sprots_a"."RUNNING"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-9907-45d200000000-m80000005-71df-167c-806e-c0a838010000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/80000000-71df-167c-806e-c0a838010000.xml#m80000005-71df-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-bc41-3c4000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."".""."sprots_a"."RUNNING"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-bc41-3c4000000000-mc0000003-71ac-167c-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-71ac-167c-806e-c0a838010000.xml#mc0000003-71ac-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/c0000000-71ac-167c-806e-c0a838010000.xml#mc0000000-71ac-167c-806e-c0a838010000">
+</Link>
+<WhereClause mdsid="m00000009-01f4-0000-dded-4d1100000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m0000000a-01f4-0000-c057-f2d500000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m0000000b-01f4-0000-1ca1-9ef200000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

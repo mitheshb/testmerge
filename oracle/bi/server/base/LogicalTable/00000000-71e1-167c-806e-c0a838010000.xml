@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m00000000-71e1-167c-806e-c0a838010000" name="library_a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/80000000-71dc-167c-806e-c0a838010000.xml#m80000000-71dc-167c-806e-c0a838010000">
+<LogicalColumn mdsid="m00000002-71e1-167c-806e-c0a838010000" name="BOOKS" isWriteable="false">
+<AttributeDefn mdsid="m00000001-01f4-0000-d289-971100000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."".""."library_a"."BOOKS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-d289-971100000000-mc0000003-71a9-167c-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-71a9-167c-806e-c0a838010000.xml#mc0000003-71a9-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000003-71e1-167c-806e-c0a838010000" name="NAME" isWriteable="false">
+<AttributeDefn mdsid="m00000002-01f4-0000-83b7-7fe900000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."".""."library_a"."NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-83b7-7fe900000000-mc0000002-71a9-167c-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-71a9-167c-806e-c0a838010000.xml#mc0000002-71a9-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000004-71e1-167c-806e-c0a838010000" name="RNO" isWriteable="false">
+<AttributeDefn mdsid="m00000003-01f4-0000-435f-2b7700000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."".""."library_a"."RNO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-435f-2b7700000000-mc0000001-71a9-167c-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-71a9-167c-806e-c0a838010000.xml#mc0000001-71a9-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m00000005-71e1-167c-806e-c0a838010000" name="library_a_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m00000005-71e1-167c-806e-c0a838010000-m00000004-71e1-167c-806e-c0a838010000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-71e1-167c-806e-c0a838010000.xml#m00000004-71e1-167c-806e-c0a838010000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m00000000-71e1-167c-806e-c0a838010000-m00000001-71e1-167c-806e-c0a838010000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/00000001-71e1-167c-806e-c0a838010000.xml#m00000001-71e1-167c-806e-c0a838010000"/>
+</RefTableSources>
+</LogicalTable>

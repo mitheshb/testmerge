@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m00000028-71e6-167c-806e-c0a838010000" name="sprots_a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000026-71e6-167c-806e-c0a838010000.xml#m00000026-71e6-167c-806e-c0a838010000">
+<PresentationColumn mdsid="m00000018-71e6-167c-806e-c0a838010000" name="CHESS" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-71df-167c-806e-c0a838010000.xml#m80000002-71df-167c-806e-c0a838010000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000001a-71e6-167c-806e-c0a838010000" name="NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-71df-167c-806e-c0a838010000.xml#m80000003-71df-167c-806e-c0a838010000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000001c-71e6-167c-806e-c0a838010000" name="RNO" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-71df-167c-806e-c0a838010000.xml#m80000004-71df-167c-806e-c0a838010000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000001e-71e6-167c-806e-c0a838010000" name="RUNNING" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-71df-167c-806e-c0a838010000.xml#m80000005-71df-167c-806e-c0a838010000">
+</PresentationColumn>
+</PresentationTable>

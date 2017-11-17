@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m80000000-71df-167c-806e-c0a838010000" name="sprots_a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/80000000-71dc-167c-806e-c0a838010000.xml#m80000000-71dc-167c-806e-c0a838010000">
+<LogicalColumn mdsid="m80000002-71df-167c-806e-c0a838010000" name="CHESS" isWriteable="false">
+<AttributeDefn mdsid="m00000001-01f4-0000-4c5d-15b100000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."".""."sprots_a"."CHESS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-4c5d-15b100000000-mc0000004-71ac-167c-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-71ac-167c-806e-c0a838010000.xml#mc0000004-71ac-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m80000003-71df-167c-806e-c0a838010000" name="NAME" isWriteable="false">
+<AttributeDefn mdsid="m00000002-01f4-0000-1c59-e7fb00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."".""."sprots_a"."NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-1c59-e7fb00000000-mc0000002-71ac-167c-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-71ac-167c-806e-c0a838010000.xml#mc0000002-71ac-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m80000004-71df-167c-806e-c0a838010000" name="RNO" isWriteable="false">
+<AttributeDefn mdsid="m00000003-01f4-0000-6693-87f300000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."".""."sprots_a"."RNO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-6693-87f300000000-mc0000001-71ac-167c-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-71ac-167c-806e-c0a838010000.xml#mc0000001-71ac-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m80000005-71df-167c-806e-c0a838010000" name="RUNNING" isWriteable="false">
+<AttributeDefn mdsid="m00000004-01f4-0000-78fc-022b00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["sys"."".""."sprots_a"."RUNNING"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-78fc-022b00000000-mc0000003-71ac-167c-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-71ac-167c-806e-c0a838010000.xml#mc0000003-71ac-167c-806e-c0a838010000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m80000006-71df-167c-806e-c0a838010000" name="sprots_a_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m80000006-71df-167c-806e-c0a838010000-m80000004-71df-167c-806e-c0a838010000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-71df-167c-806e-c0a838010000.xml#m80000004-71df-167c-806e-c0a838010000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m80000000-71df-167c-806e-c0a838010000-m80000001-71df-167c-806e-c0a838010000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/80000001-71df-167c-806e-c0a838010000.xml#m80000001-71df-167c-806e-c0a838010000"/>
+</RefTableSources>
+</LogicalTable>
